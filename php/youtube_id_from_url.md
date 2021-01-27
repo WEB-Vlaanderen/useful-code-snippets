@@ -1,6 +1,6 @@
-# Youtube id from URL
+# Youtube ID from URL
 
-The script below can handle three common forms of YouTube URLS:
+The script below can handle three common forms of YouTube URLs:
 1. https://www.youtube.com/watch?v=kQbCf6A3uLY (default)
 2. https://youtu.be/kQbCf6A3uLY (short URL, other extensions than .be also work)
 3. https://www.youtube.com/embed/kQbCf6A3uLY (embed link)
