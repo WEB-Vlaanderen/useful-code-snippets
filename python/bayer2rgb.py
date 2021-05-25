@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-"""bayer2rgb.py : Script to conver BayerBG to RGB and store new video"""
+"""bayer2rgb.py : Script to convert BayerBG to RGB and store new video"""
 
 __author__      = "Maarten Slembrouck"
 __copyright__   = "Copyright 2021, Ghent"
