@@ -17,7 +17,7 @@ ffmpeg -i <input> -c:v libtheora -q:v 7 -c:a libvorbis output.ogv
 ffmpeg -i <input> -c:v libvpx-vp9 -crf 30 -b:v 0 output.webm
 ffmpeg -i <input> -c:v libx264 -crf 23 -b:v 0 output.mp4
 
-ffmpeg -i <input> -vf "select=eq(n\,34)" -vframes 1 poster.jpg
+ffmpeg -i <input> -vframes 1 output.jpg
 ```
 
 
