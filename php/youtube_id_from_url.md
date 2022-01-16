@@ -16,7 +16,7 @@ function get_youtube_id($url){
     }
     else{
       // second, the last segment of the url should hold the YouTube ID
-      return end(explode("/",$parts[PHP_URL_PATH]));
+      return end(explode("/",$parts['path']));
     }
   }
   return null;
